@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftEvolutionProvider_Example' do
+  pod 'SwiftEvolutionProvider', :path => '../'
+
+  target 'SwiftEvolutionProvider_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
