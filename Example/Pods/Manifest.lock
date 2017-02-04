@@ -1,0 +1,16 @@
+PODS:
+  - SwiftEvolutionProvider (0.1.0)
+
+DEPENDENCIES:
+  - SwiftEvolutionProvider (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftEvolutionProvider:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftEvolutionProvider: eb153caf3952183417641b3b9503844623128cf8
+
+PODFILE CHECKSUM: b6128e063f7c4c72d828878758846d08334a20cd
+
+COCOAPODS: 1.1.1

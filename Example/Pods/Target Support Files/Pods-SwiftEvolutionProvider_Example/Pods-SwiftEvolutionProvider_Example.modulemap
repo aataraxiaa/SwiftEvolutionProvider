@@ -1,0 +1,6 @@
+framework module Pods_SwiftEvolutionProvider_Example {
+  umbrella header "Pods-SwiftEvolutionProvider_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

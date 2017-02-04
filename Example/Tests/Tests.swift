@@ -1,8 +1,7 @@
-import UIKit
 import XCTest
 import SwiftEvolutionProvider
 
-class Tests: XCTestCase {
+class Test: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -14,16 +13,15 @@ class Tests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+    func testGetProposals() {
+        
+//        let expectation = expectation(description: "Fetch proposals")
+        
+        _ = ProposalProvider.proposals(withSuccess: { proposals in
+            
+            XCTAssert(!proposals.isEmpty)
+            
+//            XCTWaiter.wait(for: expectation, timeout: 5)
+        }, andFailure: { _ in })
     }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure() {
-            // Put the code you want to measure the time of here.
-        }
-    }
-    
 }
