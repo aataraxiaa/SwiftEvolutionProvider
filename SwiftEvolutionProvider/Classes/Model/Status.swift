@@ -7,7 +7,33 @@
 //  Released under an MIT license: http://opensource.org/licenses/MIT
 //
 
-public enum Status: String {
+public struct Status {
+    let version: String?
+    let state: State
+}
+
+public extension Status {
+    
+    private struct InternalConstants {
+        static let versionKey = "version"
+        static let stateKey = "state"
+    }
+    
+    init(withJson json: [String:String]) {
+        
+        version = json[InternalConstants.versionKey] ?? nil
+        
+        var stateValue = json[InternalConstants.stateKey] ?? "unknown"
+        if stateValue.hasPrefix(".") {
+            stateValue = stateValue.substring(
+                from: stateValue.index(after: stateValue.startIndex))
+        }
+    
+        state = State(withRawValue: stateValue)
+    }
+}
+
+public enum State: String {
     case accepted
     case activeReview
     case implemented
@@ -17,9 +43,9 @@ public enum Status: String {
     case unknown
 }
 
-public extension Status {
+public extension State {
     
     init(withRawValue rawValue: String) {
-        self = Status(rawValue: rawValue) ?? .unknown
+        self = State(rawValue: rawValue) ?? .unknown
     }
 }

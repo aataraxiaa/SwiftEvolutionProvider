@@ -9,6 +9,7 @@
 
 /// Swift Evolution Proposal Model
 public struct Proposal {
+    public let id: String
     public let title: String
     public let status: Status
     public let authors: [Author]
@@ -17,26 +18,23 @@ public struct Proposal {
 public extension Proposal {
     
     private struct InternalConstants {
+        static let idKey = "id"
         static let titleKey = "title"
         static let statusKey = "status"
-        static let statusStateKey = "state"
         static let authorsKey = "authors"
         static let authorNameKey = "name"
         static let authorLinkKey = "link"
     }
     
     init(withJson json: [String:Any]) {
+        
+        let id = json[InternalConstants.idKey] as? String ?? "Id unknown"
+        
         let title: String = json[InternalConstants.titleKey] as? String ?? "Title unknown"
         
-        var status = Status.unknown
-        if let statusJson = json[InternalConstants.statusKey] as? [String:Any],
-            let statusValue = statusJson[InternalConstants.statusStateKey] as? String {
-            
-            // Remove '.' prefix from the status value
-            let cleanStatusValue = statusValue.substring(
-                from: statusValue.index(after: statusValue.startIndex))
-            
-            status = Status(withRawValue: cleanStatusValue)
+        var status = Status(version: nil, state: .unknown)
+        if let statusJson = json[InternalConstants.statusKey] as? [String:String] {
+            status = Status(withJson: statusJson)
         }
         
         var authors: [Author] = []
@@ -50,6 +48,6 @@ public extension Proposal {
             }
         }
         
-        self = Proposal(title: title, status: status, authors: authors)
+        self = Proposal(id: id, title: title, status: status, authors: authors)
     }
 }
