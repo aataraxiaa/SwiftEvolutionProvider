@@ -38,15 +38,15 @@
 		07D426C2724FBF645E63F7F852BD4CAE /* Pods-SwiftEvolutionProvider_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftEvolutionProvider_Example-frameworks.sh"; sourceTree = "<group>"; };
 		216DA482643DAC007339C50FA73BBC03 /* Pods-SwiftEvolutionProvider_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftEvolutionProvider_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		243368F9C5F87022EBA9016251227F5C /* Pods-SwiftEvolutionProvider_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftEvolutionProvider_Example-umbrella.h"; sourceTree = "<group>"; };
-		2D54E08C1359FABA063DC5ECC1A8DF53 /* Pods-SwiftEvolutionProvider_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SwiftEvolutionProvider_Tests.modulemap"; sourceTree = "<group>"; };
+		2D54E08C1359FABA063DC5ECC1A8DF53 /* Pods-SwiftEvolutionProvider_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftEvolutionProvider_Tests.modulemap"; sourceTree = "<group>"; };
 		2F3BDD87F14211176A6D1517DC8BF68D /* SwiftEvolutionProvider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftEvolutionProvider-dummy.m"; sourceTree = "<group>"; };
 		42AC1ABA7994E7F95DB7EC12BFBE9416 /* SwiftEvolutionProvider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftEvolutionProvider.xcconfig; sourceTree = "<group>"; };
 		4DADE404F990A976F6A9C60D3B753977 /* Pods-SwiftEvolutionProvider_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftEvolutionProvider_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4F038D9084665A55A07D8CF3253D6088 /* APIClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
-		5334D49FDF5577DFE6CEB3D119515A9B /* SwiftEvolutionProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftEvolutionProvider.framework; path = SwiftEvolutionProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5334D49FDF5577DFE6CEB3D119515A9B /* SwiftEvolutionProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftEvolutionProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A637457588904F8AF52DD13A49C3EAA /* Status.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
 		5D821F547D899B0C7DC334C193608698 /* Pods-SwiftEvolutionProvider_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftEvolutionProvider_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5EAEBD89846551C132D24D90710D855B /* Pods_SwiftEvolutionProvider_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftEvolutionProvider_Tests.framework; path = "Pods-SwiftEvolutionProvider_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EAEBD89846551C132D24D90710D855B /* Pods_SwiftEvolutionProvider_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftEvolutionProvider_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68338F859FBDDDFB1F8D886E500737F2 /* Pods-SwiftEvolutionProvider_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftEvolutionProvider_Tests-umbrella.h"; sourceTree = "<group>"; };
 		86871FCCB076FC747185843CCFFD9170 /* Pods-SwiftEvolutionProvider_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftEvolutionProvider_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		86C32AF79FE61EA359B0C136982F3C0F /* Proposal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Proposal.swift; sourceTree = "<group>"; };
@@ -54,19 +54,19 @@
 		8C4FB076504739754FA5F614701CB34B /* SwiftEvolutionProvider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftEvolutionProvider-prefix.pch"; sourceTree = "<group>"; };
 		8E5F5CB9826CB4414AE693D2C622379B /* SwiftEvolutionProvider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftEvolutionProvider-umbrella.h"; sourceTree = "<group>"; };
 		91E174E8180A6723A152630CE3987F87 /* Pods-SwiftEvolutionProvider_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftEvolutionProvider_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B297DEA9DFCD997413826551A0B2177 /* Author.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
 		9FBAF855F70C7E61129721439CECBB15 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4DC57A94159164B0BD0B769DB9A0E17 /* Pods-SwiftEvolutionProvider_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftEvolutionProvider_Tests-dummy.m"; sourceTree = "<group>"; };
 		B3AABE2639600D87E1D0EA47C5D34DE3 /* Pods-SwiftEvolutionProvider_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftEvolutionProvider_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B569318EE41E41D77D331933FB743DA3 /* Pods-SwiftEvolutionProvider_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftEvolutionProvider_Example-resources.sh"; sourceTree = "<group>"; };
 		BD809A3877B573CAF48F0DEC1D856794 /* Pods-SwiftEvolutionProvider_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftEvolutionProvider_Tests-resources.sh"; sourceTree = "<group>"; };
-		C50CBA96B7E5C2244774EBE557751744 /* Pods_SwiftEvolutionProvider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftEvolutionProvider_Example.framework; path = "Pods-SwiftEvolutionProvider_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50CBA96B7E5C2244774EBE557751744 /* Pods_SwiftEvolutionProvider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftEvolutionProvider_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99B91B287ABE1F4ECE697501DD7CA06 /* ProposalProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProposalProvider.swift; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CD3519F4185E3007E7ADDEB321474C2B /* SwiftEvolutionProvider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftEvolutionProvider.modulemap; sourceTree = "<group>"; };
+		CD3519F4185E3007E7ADDEB321474C2B /* SwiftEvolutionProvider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftEvolutionProvider.modulemap; sourceTree = "<group>"; };
 		CDAE8608B6DAFF0ED00D689DB6653BA3 /* Pods-SwiftEvolutionProvider_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftEvolutionProvider_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D6BD3F390C2577DE739487385BEEAC2E /* Pods-SwiftEvolutionProvider_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SwiftEvolutionProvider_Example.modulemap"; sourceTree = "<group>"; };
+		D6BD3F390C2577DE739487385BEEAC2E /* Pods-SwiftEvolutionProvider_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftEvolutionProvider_Example.modulemap"; sourceTree = "<group>"; };
 		D73A16274F047831E4472BC0BFE367C8 /* Pods-SwiftEvolutionProvider_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftEvolutionProvider_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DC6612A076062E7B6CB687A5E5116126 /* Pods-SwiftEvolutionProvider_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftEvolutionProvider_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DE3C02AE8D865C5A239CA12C2FC6B38B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -141,7 +141,6 @@
 				E30D0161CA25DBCF6EE9591B80007F75 /* Model */,
 				5F4FC2527B758AFF0B7FFC99B1B5D0CA /* Providers */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -150,7 +149,6 @@
 			children = (
 				3F6EC2F2A628CEEE587E8ECEF92FD0AA /* Classes */,
 			);
-			name = SwiftEvolutionProvider;
 			path = SwiftEvolutionProvider;
 			sourceTree = "<group>";
 		};
@@ -169,7 +167,6 @@
 			children = (
 				C99B91B287ABE1F4ECE697501DD7CA06 /* ProposalProvider.swift */,
 			);
-			name = Providers;
 			path = Providers;
 			sourceTree = "<group>";
 		};
@@ -197,7 +194,6 @@
 			children = (
 				4F038D9084665A55A07D8CF3253D6088 /* APIClient.swift */,
 			);
-			name = APIClient;
 			path = APIClient;
 			sourceTree = "<group>";
 		};
@@ -262,7 +258,6 @@
 				8708BDA5865E65D5D0A8E47308D1CB9E /* ProposalError.swift */,
 				5A637457588904F8AF52DD13A49C3EAA /* Status.swift */,
 			);
-			name = Model;
 			path = Model;
 			sourceTree = "<group>";
 		};
@@ -543,7 +538,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftEvolutionProvider/SwiftEvolutionProvider-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwiftEvolutionProvider/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwiftEvolutionProvider/SwiftEvolutionProvider.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -695,7 +690,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftEvolutionProvider/SwiftEvolutionProvider-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwiftEvolutionProvider/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwiftEvolutionProvider/SwiftEvolutionProvider.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;

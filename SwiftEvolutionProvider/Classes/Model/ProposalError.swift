@@ -9,4 +9,5 @@
 
 public enum ProposalError: Error {
     case noProposals
+    case generic
 }

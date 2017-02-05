@@ -7,12 +7,11 @@
 //  Released under an MIT license: http://opensource.org/licenses/MIT
 //
 
-
 /// Swift Evolution Proposal Model
 public struct Proposal {
-    let title: String
-    let status: Status
-    let authors: [Author]
+    public let title: String
+    public let status: Status
+    public let authors: [Author]
 }
 
 public extension Proposal {
@@ -33,7 +32,11 @@ public extension Proposal {
         if let statusJson = json[InternalConstants.statusKey] as? [String:Any],
             let statusValue = statusJson[InternalConstants.statusStateKey] as? String {
             
-            status = Status(withRawValue: statusValue)
+            // Remove '.' prefix from the status value
+            let cleanStatusValue = statusValue.substring(
+                from: statusValue.index(after: statusValue.startIndex))
+            
+            status = Status(withRawValue: cleanStatusValue)
         }
         
         var authors: [Author] = []

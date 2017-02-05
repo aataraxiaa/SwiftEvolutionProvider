@@ -8,6 +8,6 @@
 //
 
 public struct Author {
-    let name: String
-    let link: String?
+    public let name: String
+    public let link: String?
 }

@@ -28,6 +28,8 @@ public struct ProposalProvider {
             
             success(proposals)
             
-        }, andFailure: { error in } )
+        }, andFailure: { error in
+            failure(ProposalError.generic)
+        } )
     }
 }

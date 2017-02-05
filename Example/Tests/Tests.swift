@@ -15,13 +15,17 @@ class Test: XCTestCase {
     
     func testGetProposals() {
         
-//        let expectation = expectation(description: "Fetch proposals")
+        let proposalExpectation = expectation(description: "Fetch proposals")
         
         _ = ProposalProvider.proposals(withSuccess: { proposals in
-            
+
             XCTAssert(!proposals.isEmpty)
             
-//            XCTWaiter.wait(for: expectation, timeout: 5)
-        }, andFailure: { _ in })
+        }, andFailure: { _ in
+        
+            XCTFail()
+        })
+        
+         XCTWaiter.wait(for: [proposalExpectation], timeout: 5)
     }
 }
